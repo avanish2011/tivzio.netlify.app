@@ -1,0 +1,312 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+
+}
+.btn-for-all{
+    position: fixed;
+    bottom: 10px;
+    padding: 10px 20px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    right: 10px;
+}
+.btn-for-all:hover{
+    background-color: rgba(44, 37, 37, 0.909);
+
+}
+.header-top {
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.541);
+
+}
+
+.header-top div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*  margin: 0 20px;*/
+    padding: 0px 30px;
+}
+
+.icons-lang select {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    /* margin-right: 10px;*/
+
+}
+
+.icons-lang select option {
+    z-index: 1;
+}
+
+/* Nav-bar start */
+.nav-bar {
+    height: 69px;
+    background-color: rgb(248, 131, 53);
+    position: sticky;
+    z-index: 998;
+    top: 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+.nav-bar .navbar{
+    background-color:yellowgreen;
+}
+
+.navbar-nav .nav-item {
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.navbar-nav .nav-item:hover {
+    background: aqua;
+    color: white;
+
+}
+
+.navbar-nav .nav-item:link {
+    background: aqua;
+    color: white;
+
+}
+
+/*Slider starts*/
+.slider {
+    /* height: 470px;*/
+    background-color: violet;
+}
+
+/* category */
+.category #category-heading {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.category #category-heading h3 {
+    color: red;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.category #category-heading button {
+    border: none;
+    font-size: 20px;
+    padding: 8px 20px;
+}
+
+.category-img { 
+    /*height: 150px;
+    width: 500px; */
+}
+
+.category-img .card:hover {
+    transform: .5s ease-in-out;
+}
+
+.category-img .card:hover {
+    border: 2px solid greenyellow;
+    box-shadow: 0px 0px 20px 12px rgb(235, 165, 165);
+
+}
+
+.category-next {
+    margin-top: 150px;
+
+}
+
+/* Popular Item */
+.item {
+    background-color: rgb(237, 237, 231);
+    padding: 0px 0px;
+
+
+}
+
+.item #item-heading h3 {
+    color: rgb(31, 4, 4);
+    font-size: 22px;
+
+
+}
+
+.item #item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item #item-heading h3 {
+    color: black;
+    font-size: 22px;
+
+}
+
+.item #item-heading button {
+    border: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    
+
+}
+/* Product Card design*/
+.product-card{
+    border:1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+
+    cursor: pointer;
+    
+
+}
+.product-card:hover{
+     box-shadow: 0px 0px 20px 12px rgb(239, 211, 211);
+
+}
+.badge-hot{
+    background-color: #dc3534;
+    font-size: .75rem;
+    padding: 0.5rem 0.6rem;
+}
+.badge-discount{
+    background-color: #28a755;
+    font-size: .75rem;
+    padding: 0.5rem 0.6rem;
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.old-price{
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.rating{
+    color: rgb(244, 244, 3);
+}
+/*  Other  */
+.other .Other-col{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+.other-div{
+    height: 250px;
+    width: 300px;
+    
+
+}
+.other-icons{
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 10px;
+    color: #28a755;
+}
+.other-texts{
+    margin-left: 7px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.other-text span{
+    font-weight: 500;
+}
+
+
+/* footer start from here */
+
+/* Footer Top */
+
+.footer-outer .footer-top-row{
+    height: 300px;
+    background-color: rgb(238, 224, 224);
+}
+.footer-outer .footer-top-row .top-imp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+.footer-outer .footer-top-row .top-imp div ul{
+    list-style: none;
+
+}
+.footer-outer .footer-top-row .top-imp .imp-links ul li{
+    font-size: 20px;
+    font-weight: 500px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 40px;
+
+}
+.footer-outer .footer-top-row .top-imp div ul{
+    list-style: none;
+}
+.footer-outer .footer-top-row .top-imp .popular-items ul{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: underline;
+    cursor: pointer;
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer-outer .footer-top-row .top-imp .popular-items ul li{
+    color: blue;
+    font-size: 20px;
+    font-weight: 500px;
+    text-decoration: underline;
+    cursor: pointer;
+    list-style: none;
+    line-height: 35px;
+
+}
+
+
+.footer-outer .footer-middle-row{
+    height: 100px;
+    background-color: rgb(250, 250, 246);
+}
+
+.footer-outer .footer-bottom-row{
+    height: 100px;
+   
+}
+.bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+   
+}
+
+.Contact{
+    font-size: 15px;
+
+    
+ }
